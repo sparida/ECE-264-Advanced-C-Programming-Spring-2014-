@@ -1,0 +1,84 @@
+==13405== Memcheck, a memory error detector
+==13405== Copyright (C) 2002-2012, and GNU GPL'd, by Julian Seward et al.
+==13405== Using Valgrind-3.8.1 and LibVEX; rerun with -h for copyright info
+==13405== Command: ./pa03
+==13405== Parent PID: 12237
+==13405== 
+--13405-- 
+--13405-- Valgrind options:
+--13405--    --tool=memcheck
+--13405--    --leak-check=full
+--13405--    --verbose
+--13405--    --log-file=memcheck.log
+--13405-- Contents of /proc/version:
+--13405--   Linux version 2.6.32-431.3.1.el6.x86_64 (mockbuild@x86-003.build.bos.redhat.com) (gcc version 4.4.7 20120313 (Red Hat 4.4.7-4) (GCC) ) #1 SMP Fri Dec 13 06:58:20 EST 2013
+--13405-- Arch and hwcaps: AMD64, amd64-sse3-cx16
+--13405-- Page sizes: currently 4096, max supported 4096
+--13405-- Valgrind library directory: /usr/lib64/valgrind
+--13405-- Reading syms from /home/shay/b/sparida/ECE264/solutions/demo/PA03/pa03
+--13405-- Reading syms from /usr/lib64/valgrind/memcheck-amd64-linux
+--13405--    object doesn't have a dynamic symbol table
+--13405-- Reading syms from /lib64/ld-2.12.so
+--13405-- Scheduler: using generic scheduler lock implementation.
+--13405-- Reading suppressions file: /usr/lib64/valgrind/default.supp
+==13405== embedded gdbserver: reading from /tmp/vgdb-pipe-from-vgdb-to-13405-by-sparida-on-ecelinux37.ecn.purdue.edu
+==13405== embedded gdbserver: writing to   /tmp/vgdb-pipe-to-vgdb-from-13405-by-sparida-on-ecelinux37.ecn.purdue.edu
+==13405== embedded gdbserver: shared mem   /tmp/vgdb-pipe-shared-mem-vgdb-13405-by-sparida-on-ecelinux37.ecn.purdue.edu
+==13405== 
+==13405== TO CONTROL THIS PROCESS USING vgdb (which you probably
+==13405== don't want to do, unless you know exactly what you're doing,
+==13405== or are doing some strange experiment):
+==13405==   /usr/lib64/valgrind/../../bin/vgdb --pid=13405 ...command...
+==13405== 
+==13405== TO DEBUG THIS PROCESS USING GDB: start GDB like this
+==13405==   /path/to/gdb ./pa03
+==13405== and then give GDB the following command
+==13405==   target remote | /usr/lib64/valgrind/../../bin/vgdb --pid=13405
+==13405== --pid is optional if only one valgrind process is running
+==13405== 
+--13405-- REDIR: 0x39a4e17530 (strlen) redirected to 0x38049551 (vgPlain_amd64_linux_REDIR_FOR_strlen)
+--13405-- Reading syms from /usr/lib64/valgrind/vgpreload_core-amd64-linux.so
+--13405-- Reading syms from /usr/lib64/valgrind/vgpreload_memcheck-amd64-linux.so
+--13405-- REDIR: 0x39a4e173a0 (index) redirected to 0x4a07bf0 (index)
+--13405-- REDIR: 0x39a4e17420 (strcmp) redirected to 0x4a08530 (strcmp)
+--13405-- Reading syms from /lib64/libc-2.12.so
+--13405-- REDIR: 0x39a5284fb0 (strcasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--13405-- REDIR: 0x39a5287270 (strncasecmp) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--13405-- REDIR: 0x39a5282f20 (__GI_strrchr) redirected to 0x4a07a70 (__GI_strrchr)
+--13405-- REDIR: 0x39a527a920 (malloc) redirected to 0x4a0696c (malloc)
+--13405-- REDIR: 0x39a5289950 (memcpy) redirected to 0x4a08b20 (memcpy)
+--13405-- REDIR: 0x39a5281440 (__GI_strlen) redirected to 0x4a07f70 (__GI_strlen)
+--13405-- REDIR: 0x39a528add0 (strchrnul) redirected to 0x4a09f10 (strchrnul)
+--13405-- REDIR: 0x39a527b800 (free) redirected to 0x4a06369 (free)
+--13405-- REDIR: 0x39a5281400 (strlen) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--13405-- REDIR: 0x39a5333860 (__strlen_sse42) redirected to 0x4a07f50 (strlen)
+--13405-- REDIR: 0x39a5280e50 (strcpy) redirected to 0x480155c (_vgnU_ifunc_wrapper)
+--13405-- REDIR: 0x39a5334300 (???) redirected to 0x4a07f90 (strcpy)
+--13405-- REDIR: 0x39a527f750 (strcat) redirected to 0x4a07c20 (strcat)
+--13405-- REDIR: 0x39a52847e0 (mempcpy) redirected to 0x4a09f80 (mempcpy)
+==13405== 
+==13405== HEAP SUMMARY:
+==13405==     in use at exit: 29 bytes in 1 blocks
+==13405==   total heap usage: 2 allocs, 1 frees, 38 bytes allocated
+==13405== 
+==13405== Searching for pointers to 1 not-freed blocks
+==13405== Checked 64,568 bytes
+==13405== 
+==13405== 29 bytes in 1 blocks are definitely lost in loss record 1 of 1
+==13405==    at 0x4A069EE: malloc (vg_replace_malloc.c:270)
+==13405==    by 0x4008DB: strcat_ex (answer03.c:42)
+==13405==    by 0x400812: main (pa03.c:16)
+==13405== 
+==13405== LEAK SUMMARY:
+==13405==    definitely lost: 29 bytes in 1 blocks
+==13405==    indirectly lost: 0 bytes in 0 blocks
+==13405==      possibly lost: 0 bytes in 0 blocks
+==13405==    still reachable: 0 bytes in 0 blocks
+==13405==         suppressed: 0 bytes in 0 blocks
+==13405== 
+==13405== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 6 from 6)
+--13405-- 
+--13405-- used_suppression:      4 U1004-ARM-_dl_relocate_object
+--13405-- used_suppression:      2 glibc-2.5.x-on-SUSE-10.2-(PPC)-2a
+==13405== 
+==13405== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 6 from 6)

@@ -1,0 +1,60 @@
+Breakpoint 1 at 0x400728: file grep-lite.c, line 10.
+Breakpoint 2 at 0x400774: file grep-lite.c, line 20.
+Breakpoint 3 at 0x4007ba: file grep-lite.c, line 30.
+Breakpoint 4 at 0x40083e: file grep-lite.c, line 40.
+Breakpoint 5 at 0x4008aa: file grep-lite.c, line 50.
+Breakpoint 6 at 0x400904: file grep-lite.c, line 60.
+Breakpoint 7 at 0x400977: file grep-lite.c, line 70.
+Breakpoint 8 at 0x4009bc: file grep-lite.c, line 80.
+Breakpoint 9 at 0x400a0c: file grep-lite.c, line 90.
+No line 100 in file "grep-lite.c".
+No line 110 in file "grep-lite.c".
+Function "r" not defined.
+Make breakpoint pending on future shared library load? (y or [n]) 
+Please answer y or [n].
+Make breakpoint pending on future shared library load? (y or [n]) Starting program: /home/shay/b/sparida/ECE264/solutions/demo/PA04/grep-lite 
+
+Breakpoint 2, main (argc=1, argv=0x7fffffffe4f8) at grep-lite.c:22
+22		int hFlag = FALSE;
+Missing separate debuginfos, use: debuginfo-install glibc-2.12-1.132.el6.x86_64
+Continuing.
+
+Breakpoint 7, main (argc=1, argv=0x7fffffffe4f8) at grep-lite.c:71
+71		if(argc == 1)
+Continuing.
+
+Program exited with code 02.
+The program is not being run.
+No frame selected.
+The program is not being run.
+Starting program: /home/shay/b/sparida/ECE264/solutions/demo/PA04/grep-lite 
+
+Breakpoint 2, main (argc=1, argv=0x7fffffffe4f8) at grep-lite.c:22
+22		int hFlag = FALSE;
+i = 57
+hFlag = 4197008
+vFlag = 0
+nFlag = 0
+qFlag = 0
+pattern = 0x400640 "1\355I\211\321^H\211\342H\203\344\360PTI\307\300\200\n@"
+buf = "\000\000\000\000\000\000\000\000\330\003@", '\000' <repeats 15 times>, "\002\245\071\000\000\000\371p\377\367\377\177\000\000\000\000\000\000\000\000\000\000\210\021\002\245\071\000\000\000z\203\340\244\071", '\000' <repeats 11 times>"\350, \337\377\377\377\177", '\000' <repeats 26 times>, "\b\000\000\000\377\177\000\000\000\000\000\000\001\000\000\000\000\000\000\001\000\000\000\000\000\000\000\000\071\000\000\000\n\000\000\000\000\000\000\000\240\334\377\377\377\177\000\000\360\337\377\377\377\177\000\000\000\000\000\000\000\000\000\000\377\337\377\377\377\177", '\000' <repeats 18 times>, "@\003\000\000\000\000\000\000\177ELF\002\001\001\003\000\000\000\000\000\000\000\000\003\000>\000\001\000\000\000\060\356!\245\071\000\000\000@\000\000\000\000\000\000\000PS\035\000\000\000\000\000\000\000\000\000@\000\070\000\n\000@\000M\000L\000"...
+fFlag = 32767
+curL = 0
+$1 = 0
+$2 = 32767
+Continuing.
+
+Breakpoint 7, main (argc=1, argv=0x7fffffffe4f8) at grep-lite.c:71
+71		if(argc == 1)
+i = 1
+hFlag = 0
+vFlag = 0
+nFlag = 0
+qFlag = 0
+pattern = 0x7fffffffe75d "/home/shay/b/sparida/ECE264/solutions/demo/PA04/grep-lite"
+buf = "\000\000\000\000\000\000\000\000\330\003@", '\000' <repeats 15 times>, "\002\245\071\000\000\000\371p\377\367\377\177\000\000\000\000\000\000\000\000\000\000\210\021\002\245\071\000\000\000z\203\340\244\071", '\000' <repeats 11 times>"\350, \337\377\377\377\177", '\000' <repeats 26 times>, "\b\000\000\000\377\177\000\000\000\000\000\000\001\000\000\000\000\000\000\001\000\000\000\000\000\000\000\000\071\000\000\000\n\000\000\000\000\000\000\000\240\334\377\377\377\177\000\000\360\337\377\377\377\177\000\000\000\000\000\000\000\000\000\000\377\337\377\377\377\177", '\000' <repeats 18 times>, "@\003\000\000\000\000\000\000\177ELF\002\001\001\003\000\000\000\000\000\000\000\000\003\000>\000\001\000\000\000\060\356!\245\071\000\000\000@\000\000\000\000\000\000\000PS\035\000\000\000\000\000\000\000\000\000@\000\070\000\n\000@\000M\000L\000"...
+fFlag = 32767
+curL = 0
+Continuing.
+
+Program exited with code 02.

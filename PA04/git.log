@@ -1,0 +1,167 @@
+commit a0c7be278d01670bcad745de54e979840a8bfa4d
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Feb 14 19:53:40 2014 -0500
+
+    Ran valgrind for memory errors: No errors
+
+commit b45fa6abf527adcc5b20c437fd4acb6116966881
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Feb 14 19:49:43 2014 -0500
+
+    ran GDB to tets for errors
+
+commit bed8da135acf773a32dfafcd60ab7872ff5fdf92
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Feb 14 19:22:17 2014 -0500
+
+    Grep-lite completed
+
+commit e936d1d118c09bd947383d7598b9ea88db74d27a
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Fri Feb 14 00:04:57 2014 -0500
+
+    Modified cat-lite.c to includ case for no arguments
+
+commit 4efd48d6a6f9ef897ebcb615a1589f18a1036664
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Thu Feb 13 23:50:10 2014 -0500
+
+    Completed cat-lite.c
+
+commit 4b3e9c52e5e67bb3de8dada41a0f75bd7ce2f322
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Thu Feb 13 23:01:32 2014 -0500
+
+    Done with echo-lite.c
+
+commit 79cab5c47d1e0497887f8476aeb654eed88b4a01
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Thu Feb 13 22:12:47 2014 -0500
+
+    Start Homework 4
+
+commit 2d7e108b82d9c96e1a8665ed473ed87e2d003fa3
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Sat Feb 8 23:19:39 2014 -0500
+
+    Uploaded zip file to github
+
+commit 8bea0040f58ae4b010ad2d2a0e85bfc3ec4bedbd
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Sat Feb 8 22:57:48 2014 -0500
+
+    Ran valgrind to look for final errors.
+
+commit 35d53b0ecf794f76556c9ceccfaf3d740ead42fd
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Sat Feb 8 22:56:09 2014 -0500
+
+    Fixed errors in all functions
+
+commit c4abe1ecae8a77d8115c25f8646d644a86110d83
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Sat Feb 8 22:30:37 2014 -0500
+
+    Completed all Functions
+
+commit b702495f40dcf78573485f80dca47514703ebc56
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Sat Feb 8 15:45:46 2014 -0500
+
+    Did another git pull to get new tester and fixed main.c
+
+commit ad61de7d9d08d1ce3d0acd3b5176ab1453252bf3
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Thu Feb 6 21:45:08 2014 -0500
+
+    Wrote basic pa03.c code to test answer03.c
+
+commit 6305d713705f9081c9343730db631ac1274ff831
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Thu Feb 6 21:29:34 2014 -0500
+
+    swapString function fixed by using double pointers in main .c
+
+commit 8f7e37f7f4d7feb45621fa160f3e396070e152cc
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Tue Feb 4 19:12:26 2014 -0500
+
+    Start Homework #3
+
+commit ff26e71b6e638643b1d5118a6cc4ef56f97d5061
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Jan 31 19:17:35 2014 -0500
+
+    Final Zip File Uploaded to git
+
+commit 8421f8e5c689e8ef2f74ad2f13ca68793c02f086
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Jan 31 19:16:40 2014 -0500
+
+    Debugged through gdb
+
+commit 5fddbf785756da8c17d501c8cfcf5b9bfa986d3b
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Jan 31 19:13:29 2014 -0500
+
+    Valgrind produces no erros
+
+commit 5a74bbda77e0467c7439b9693182feba4425d1dd
+Author: Sthitapragyan Parida <sparida@ecelinux37.ecn.purdue.edu>
+Date:   Fri Jan 31 19:03:38 2014 -0500
+
+    Completed all the functions
+
+commit e910f97d4595429a44df0a8775e3eb122edf5c4a
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Fri Jan 31 16:16:19 2014 -0500
+
+    Start Homework 02
+
+commit 4c88bcf56d3579e0891f3c7969019f1171aa8aa7
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Mon Jan 27 09:05:18 2014 -0500
+
+    start homework
+
+commit 16fbd1e26a77d5821af43d07b8c8364571726b99
+Author: Sthitapragyan Parida <sparida@ecelinux26.ecn.purdue.edu>
+Date:   Sun Jan 26 12:55:32 2014 -0500
+
+    Added all required files to a zip file
+
+commit 9b0b29e4e0873d165c5dd78e0546a260dd8349a9
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Sun Jan 26 01:28:31 2014 -0500
+
+    Modified findArrayIndex to correct error
+
+commit 8aabeccb88744876e64f918c207e7aa2152e37f1
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Sun Jan 26 01:21:59 2014 -0500
+
+    Changed index++ to ++index
+
+commit 2498fbdbcc944f14a609458a15e9bb9af4ca79ff
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Sun Jan 26 01:18:49 2014 -0500
+
+    Added all other function definitions
+
+commit c44a5470ccbf65b1ea628e4ed943729fed5444a9
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Sat Jan 25 22:14:23 2014 -0500
+
+    First function modified
+
+commit 039ef656ea179c2aea6de15dd6c66a5e84b535fe
+Author: Sthitapragyan Parida <sparida@ecelinux18.ecn.purdue.edu>
+Date:   Sat Jan 25 21:31:56 2014 -0500
+
+    start homework
+
+commit c7836ca7d13643b7a1940efe049b408ec6d6990f
+Author: sparida <sparida@purdue.edu>
+Date:   Sat Jan 25 18:23:42 2014 -0800
+
+    Initial commit
